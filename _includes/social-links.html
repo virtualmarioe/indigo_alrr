@@ -19,6 +19,12 @@
         </a>
     {% endif %}
 
+    {% if site.google %}
+    <a class="link" data-title="scholar.google.com//{{ site.google }}" href="https://scholar.google.com/{{ site.google }}" target="_blank"  rel="noopener">
+        <i class="fa-brands fa-google"></i>
+    </a>
+{% endif %}
+
     {% if site.linkedin %}
         <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">
             <i class="fa-brands fa-linkedin"></i>

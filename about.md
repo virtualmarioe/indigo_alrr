@@ -9,19 +9,19 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
+	<li>Brain Imaging</li>
+	<li>Brain Connectivity</li>
+	<li>Statistics</li>
+	<li>Machine Learning</li>
+	<li>Public speaker</li>
+	<li>Mentoring</li>
+	<li>Programming</li>
 	<li>Git</li>
-	<li>PHP</li>
+	<li>Matlab</li>
 	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>R</li>
+	<li>Scientific writing</li>
+	<li>Project management</li>
 </ul>
 
 <h2>Projects</h2>
