@@ -2,7 +2,10 @@
 title: ":brain: ABC-MCI (AttentionBrainConnect in MCI)"
 layout: post
 date: 2022-10-01 10:00
-tag: Reseach Attention MCI
+tag: 
+- Reseach
+- Attention
+- MCI
 image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
 headerImage: true
 projects: true
