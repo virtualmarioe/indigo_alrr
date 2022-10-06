@@ -15,6 +15,7 @@ layout: page
 	<li>Machine Learning</li>
 	<li>Public speaker</li>
 	<li>Mentoring</li>
+	<li>Data Science</li>
 	<li>Programming</li>
 	<li>Git</li>
 	<li>Matlab</li>
