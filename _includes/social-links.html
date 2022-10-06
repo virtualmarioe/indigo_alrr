@@ -20,10 +20,22 @@
     {% endif %}
 
     {% if site.google %}
-    <a class="link" data-title="scholar.google.com//{{ site.google }}" href="https://scholar.google.com/{{ site.google }}" target="_blank"  rel="noopener">
+    <a class="link" data-title="scholar.google.com/{{ site.google }}" href="https://scholar.google.com/{{ site.google }}" target="_blank"  rel="noopener">
         <i class="fa-brands fa-google"></i>
     </a>
-{% endif %}
+    {% endif %}
+
+    {% if site.researchgate %}
+    <a class="link" data-title="researchgate.net/{{ site.researchgate }}" href="https://www.researchgate.net/profile/{{ site.researchgate }}" target="_blank"  rel="noopener">
+        <i class="fa-brands fa-researchgate"></i>
+    </a>
+    {% endif %}
+
+    {% if site.orcid %}
+    <a class="link" data-title="orcid.org/{{ site.orcid }}" href="https://orcid.org/{{ site.orcid }}" target="_blank"  rel="noopener">
+        <i class="fa-brands fa-orcid"></i>
+    </a>
+    {% endif %}
 
     {% if site.linkedin %}
         <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank"  rel="noopener">

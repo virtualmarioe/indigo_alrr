@@ -1,6 +1,6 @@
 # main text of home
-title: Adriana L. Ruiz-Rizzo
-bio: Cognitive Neuroscientist.
+title: Dr. Adriana L. Ruiz-Rizzo
+bio: Cognitive Neuroscientist
 
 # twitter summary info
 description: A personal website to share information about aging, datascience, womeninstem, neuroscience and neuropsychology.
@@ -35,6 +35,8 @@ disqus:
 
 # if you don't have any of social below, comment the line
 google: citations?user=L2v2k5QAAAAJ&hl=es&oi=ao
+researchgate: Adriana-Ruiz-Rizzo
+orcid: 0000-0003-1467-0745
 twitter: alruizzo
 linkedin: adriana-l-ruiz-rizzo-ph-d-06851772
 github: alruizzo
