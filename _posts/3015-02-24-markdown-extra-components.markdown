@@ -1,7 +1,7 @@
 ---
 title: "Markdown Extra Components. NEW"
 layout: post
-date: 2016-02-24 22:48
+date: 2022-02-24 22:48
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -15,7 +15,7 @@ description: Markdown summary with different options
 
 ## Summary:
 
-You can pick as item to see how to apply in markdown.
+This content has been updated.
 
 #### Especial Elements
 - [Evidence](#evidence)
