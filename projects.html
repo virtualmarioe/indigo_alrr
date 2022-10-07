@@ -2,7 +2,7 @@
 # blog page must be named index.html and in its own folder to support pagination
 # https://jekyllrb.com/docs/pagination/
 layout: page
-title: Blog
+title: Projects
 pagination:
   enabled: true
 ---
@@ -11,7 +11,7 @@ pagination:
 		<p class="text-center">No projects yet!</p>
 	{% elsif site.pagination.enabled %}
 		{% for post in paginator.posts %}
-			{% if post.category == 'publication' %}
+			{% if post.category == 'project' %}
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
 				{% endif %}
@@ -21,7 +21,7 @@ pagination:
 		{% include pagination.html%}
 	{% else %}
 		{% for post in site.posts %}
-			{% if post.category == 'publication' %}
+			{% if post.category == 'project' %}
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
 				{% endif %}
