@@ -10,7 +10,7 @@ pagination:
 		{% for post in paginator.posts %}
 			{% if post.category == 'publication' %}
 				{% if post.hidden != true %}
-					{% include blog-post.html %}
+					{% include pub-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
@@ -20,7 +20,7 @@ pagination:
 		{% for post in site.posts %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
-					{% include blog-post.html %}
+					{% include pub-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
