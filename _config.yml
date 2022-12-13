@@ -1,6 +1,6 @@
-# main text of home
+# main text of home #Another option https://www.owlstown.com/
 title: Dr. Adriana L. Ruiz-Rizzo
-bio: Cognitive Neuroscientist
+bio: Cognitive Neuroscientist.
 
 # twitter summary info
 description: A personal website to share information about aging, datascience, womeninstem, neuroscience and neuropsychology.
@@ -22,6 +22,11 @@ resume-url: assets/CV_RUIZ-RIZZO_short.pdf
 
 url: https://virtualmarioe.github.io/indigo_alrr
 # your url: https://USERNAME.github.io
+
+# Build settings
+
+include:
+  - _publications
 
 permalink: /:title/
 
@@ -59,7 +64,7 @@ width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
+  enabled: true
   sort_reverse: true # display recent posts first
   title: ":title" # Changing this will mess up the header display logic
   per_page: 5
@@ -71,8 +76,8 @@ projects: false
 publications: true
 
 # if you don't need "about" or "blog", comment them out below
-about: false
-blog: true
+about: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
