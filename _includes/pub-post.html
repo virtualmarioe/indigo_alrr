@@ -1,6 +1,12 @@
-<div class="item {% if post.star %}star{% endif %}">
-    <a class="url" href="{{ site.url }}{{ post.url }}">
-        <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
-        <h3 class="title">{{ post.title }}</h3>
+<div class="item {% if include.item.star %}star{% endif %}">
+    <a class="url" href="{{ site.url }}{{ include.item.url }}">
+        <aside class="date"><time datetime="{{ include.item.date | date:"%d-%m-%Y" }}">{{ include.item.date | date: "%b %d %Y" }}</time></aside>
+        <h3 class="title">{{ include.item.title }}</h3>
+        {% if include.item.venue %}
+            <p class="venue"><em>{{ include.item.venue }}</em></p>
+        {% endif %}
+        {% if include.item.description %}
+            <p class="description">{{ include.item.description }}</p>
+        {% endif %}
     </a>
 </div>

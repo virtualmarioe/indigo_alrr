@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- Social meta tags -->
+{% seo %}
+
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
+
+{% if site.analytics-google %}
+    {% include analytics-google.html %}
+{% endif %}
