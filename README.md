@@ -1,3 +1,3 @@
 <p align="center">
-    <h2 align="center">A personal webpage</h2>
+    <h2 align="center">Under development</h2>
 </p>
